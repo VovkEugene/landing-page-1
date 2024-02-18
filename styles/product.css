@@ -1,0 +1,38 @@
+.product__container .section__description {
+  max-width: 600px;
+}
+
+.product__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 4rem 1rem;
+}
+
+.product__card img {
+  max-width: 400px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+.product__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.product__card a {
+  text-decoration: underline;
+  color: var(--primary-color);
+  transition: all 0.3s ease 0s;
+}
+
+.product__card a:hover {
+  color: var(--primary-color-dark);
+}
