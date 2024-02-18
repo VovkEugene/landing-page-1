@@ -7,7 +7,7 @@
 
 .header__image img {
   filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
-  animation: header 5s ease-in infinite;
+  animation: header 5s ease infinite;
 }
 
 @keyframes header {
@@ -15,10 +15,10 @@
     transform: translateY(0%);
   }
   25% {
-    transform: translateY(-50px);
+    transform: translateY(-20%);
   }
   75% {
-    transform: translateY(20px);
+    transform: translateY(10%);
   }
   100% {
     transform: translateY(0);
