@@ -1,3 +1,9 @@
+@media (width > 576px) {
+  .product__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (width > 768px) {
   nav {
     position: static;
@@ -42,12 +48,17 @@
   }
 
   .about__container {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     text-align: left;
   }
 
-  .about__image{
+  .about__image {
     grid-area: 1/2/2/3;
+  }
+
+  .product__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 }
