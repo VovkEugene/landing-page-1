@@ -1,0 +1,39 @@
+.header__container {
+  padding-top: 8rem;
+  display: grid;
+  text-align: center;
+  gap: 2rem;
+}
+
+.header__image img {
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.2));
+  animation: header 5s ease-in infinite;
+}
+
+@keyframes header {
+  0% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(-50px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: var(--text-dark);
+}
+
+.header__content h1 span {
+  font-size: 6rem;
+  line-height: 6rem;
+}
