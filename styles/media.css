@@ -1,0 +1,32 @@
+@media (width > 768px) {
+  nav {
+    position: static;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+  }
+
+  .nav__bar {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav__menu__button {
+    display: none;
+  }
+
+  .nav__links {
+    position: static;
+    width: unset;
+    padding: 0;
+    flex-direction: row;
+    transform: none;
+    background-color: transparent;
+  }
+
+  .nav__links a {
+    color: var(--text-dark);
+  }
+}
