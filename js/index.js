@@ -17,3 +17,25 @@ navLinksNode.addEventListener("click", (event) => {
   navLinksNode.classList.remove("open");
   menuButtonIconNode.setAttribute("class", "ri-menu-3-line");
 });
+
+// --------------ScrollReveal is a JavaScript library-----
+const scrollRevealOption = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1000,
+};
+
+// header container
+ScrollReveal().reveal(".header__content h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".header__content .section__description", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".header__content .header__button", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
