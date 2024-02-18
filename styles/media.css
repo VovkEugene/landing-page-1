@@ -40,4 +40,14 @@
   .header__image {
     grid-area: 1/2/2/3;
   }
+
+  .about__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: left;
+  }
+
+  .about__image{
+    grid-area: 1/2/2/3;
+  }
 }
