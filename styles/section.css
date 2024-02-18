@@ -1,0 +1,17 @@
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.section__description {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
