@@ -25,7 +25,7 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
-// header container
+//---------------header container---------------
 ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
 });
@@ -40,7 +40,7 @@ ScrollReveal().reveal(".header__content .header__button", {
   delay: 1000,
 });
 
-//about container
+//---------------about container---------------
 ScrollReveal().reveal(".about__content .section__header", {
   ...scrollRevealOption,
 });
@@ -57,4 +57,10 @@ ScrollReveal().reveal(".about__content .section__description", {
 ScrollReveal().reveal(".about__content .about__button", {
   ...scrollRevealOption,
   delay: 1000,
+});
+
+//---------------product container---------------
+ScrollReveal().reveal(".product__card", {
+  ...scrollRevealOption,
+  interval: 500,
 });
