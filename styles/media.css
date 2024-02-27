@@ -98,4 +98,14 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
+
+  .subscribe__container{
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    text-align: left;
+  }
+
+  .subscribe__content form {
+    margin-inline-start: unset;
+  }
 }
