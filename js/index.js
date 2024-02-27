@@ -64,3 +64,9 @@ ScrollReveal().reveal(".product__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+//---------------article container---------------
+ScrollReveal().reveal(".article__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
