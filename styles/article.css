@@ -1,0 +1,38 @@
+.article {
+  background-color: var(--extra-light);
+}
+
+.article__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 4rem 1rem;
+}
+
+.article__card img {
+  max-width: 400px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.article__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.article__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.article__card a {
+  text-decoration: underline;
+  color: var(--primary-color);
+  transition: all 0.3s ease 0s;
+}
+
+.article__card a:hover {
+  color: var(--primary-color-dark);
+}
