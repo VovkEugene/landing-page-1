@@ -1,0 +1,26 @@
+.banner {
+  background-color: var(--extra-light);
+}
+
+.banner__container {
+  display: grid;
+  gap: 2rem;
+}
+
+.banner__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.banner__card img {
+  max-width: 70px;
+}
+
+.banner__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}

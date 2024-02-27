@@ -7,7 +7,8 @@
 @import url("./product.css");
 @import url("./gallery.css");
 @import url("./article.css");
-@import url('./subscrube.css');
+@import url("./subscrube.css");
+@import url("./banner.css");
 @import url("./media.css");
 
 :root {
